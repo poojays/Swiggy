@@ -1,0 +1,24 @@
+package junits;
+
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+ 
+
+import static  org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
+ 
+public class AsumptionsExample {​​​​
+
+    @DisplayName("Assumptions Example")
+    @Test
+    public void junit1() {​​​​
+
+        System.setProperty("ENV", "DEV");
+
+        assumeTrue("DEV".equals(System.getProperty("ENV")));
+
+        assertTrue(true);
+ 
+}​​​​
+}

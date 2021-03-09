@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="Cucumber" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="main.TestRunner" time="0.202">
+    <testsuite name="Login into swiggy website" time="0.202">
+      <testcase name="Positive scenario to test login fuctionality" classname="Login into swiggy website" time="0.202">
+        <error>io.cucumber.junit.UndefinedStepException: The step "User has opened swiggy website on Chrome Browser" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User has opened swiggy website on Chrome Browser")
+public void user_has_opened_swiggy_website_on_Chrome_Browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("User has opened swiggy website on Chrome Browser", () -&gt; {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

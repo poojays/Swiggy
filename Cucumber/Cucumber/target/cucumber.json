@@ -1,0 +1,54 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-09T06:06:48.762Z",
+        "line": 10,
+        "name": "Positive scenario to test login functionality",
+        "description": "",
+        "id": "login-into-swiggy-website;positive-scenario-to-test-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User has opened Swiggy website on Chrome Browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enters correct \"9768543451\" and \"abc\" and \"abc@xyz.com\" and \"123456\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "test.Login_StepDef.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into swiggy website",
+    "description": "",
+    "id": "login-into-swiggy-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/main/SwiggyLogin.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-09T06:38:41.672Z",
+        "line": 10,
+        "name": "Positive scenario to test login functionality",
+        "description": "",
+        "id": "login-into-swiggy-website;positive-scenario-to-test-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3207000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has opened Swiggy website on Chrome Browser",
+            "match": {
+              "location": "test.Login_StepDef.user_has_opened_swiggy_website_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2111000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters correct \"9768543451\" and \"abc\" and \"abc@xyz.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9768543451",
+                  "offset": 21
+                },
+                {
+                  "val": "abc",
+                  "offset": 38
+                },
+                {
+                  "val": "abc@xyz.com",
+                  "offset": 48
+                },
+                {
+                  "val": "123456",
+                  "offset": 66
+                }
+              ],
+              "location": "test.Login_StepDef.user_enters_correct_something_and_something_and_something_and_something(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "test.Login_StepDef.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into swiggy website",
+    "description": "",
+    "id": "login-into-swiggy-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]

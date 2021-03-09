@@ -1,0 +1,16 @@
+package junits;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+
+
+
+public class ParamiterizedTestEx {
+	
+	@ValueSource(strings= {"radar","acca","abcd"})
+	@ParametrizedtTest
+	public void junit(String arg1) {
+		
+	 assetTrue(StringFunctions.isPalindrome(arg1));
+	}
+
+}

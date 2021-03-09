@@ -1,0 +1,14 @@
+package Demo;
+
+public class FirstClass {
+  public void Display() {
+  }
+  
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        SecondClass sc=new SecondClass();
+        sc.show(5);
+        sc.show1();
+	}
+
+}

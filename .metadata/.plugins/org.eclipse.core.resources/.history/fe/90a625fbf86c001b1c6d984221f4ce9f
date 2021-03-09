@@ -1,0 +1,11 @@
+package test;
+
+public class ChildClass extends ParentClass {
+	int sal=25000;
+	public void show()
+	{
+		System.out.println("Employee No: "+EmpNo);
+		System.out.println("Salary: "+sal);
+	}
+
+}

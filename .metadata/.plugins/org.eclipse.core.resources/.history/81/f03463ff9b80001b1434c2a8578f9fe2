@@ -1,0 +1,12 @@
+Feature: Login into swiggy website
+
+  Scenario: Positive scenario to test login functionality
+    Given User has opened swiggy website on Chrome Browser
+    When User enters correct "<Phonenumber>"
+    Then User should be able to login successfully
+    
+    Examples:
+        |Phonenumber|
+        |8546818044 |
+
+

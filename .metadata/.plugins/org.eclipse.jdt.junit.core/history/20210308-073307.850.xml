@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="test.TestRunner" time="0.217">
+    <testsuite name="Login into amazon website" time="0.217">
+      <testcase name="Positive scenario to test login fuctionality" classname="Login into amazon website" time="0.217">
+        <error>java.lang.IllegalStateException: The driver executable does not exist: /home/poojaystecnotre/eclipse-workspace/Cucumber/Cucumber/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:290)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at test.Login_StepDef.user_has_opened_amazon_website_on_chrome_browser(Login_StepDef.java:20)
+	at ✽.User has opened amazon website on Chrome Browser(file:///home/poojaystecnotre/eclipse-workspace/Cucumber/Cucumber/src/test/java/test/LoginWithParam.feature:22)
+
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

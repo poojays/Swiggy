@@ -1,0 +1,14 @@
+package junits;
+
+public class ExtensionTest {
+	@ExtendWith(EnvExtesion.class)
+	
+	@Test
+	public void junit1() {
+		
+		assertTrue(StringFunctions.isPalinndrome("radar"));
+		System.out.println("Inside Test");
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class TDDExample {
+	
+	@Test
+	public void testPageTitle() {
+		    
+		    System.setProperty("webdriver.chrome.driver","/home/poojaystecnotre/Downloads/chromedriver");
+		    System.setProperty("webdriver.gecko.driver", "/home/poojaystecnotre/Downloads/geckodriver");
+		    // TODO Auto-generated method stub
+		     WebDriver driver = new ChromeDriver();
+		    driver.get("https://www.simplilearn.com/");
+		    String ActTitle = driver.getTitle();
+		    String ExpTitle ="World's #1 Online Bootcamp & Certification Course Provider | Simplilearn";
+		    System.out.println(ActTitle);
+		    Assert.assertEquals(ExpTitle,ActTitle);
+
+		    		
+
+}
+}

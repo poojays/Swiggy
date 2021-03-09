@@ -1,0 +1,11 @@
+package test;
+
+public class ParentClass {
+	
+	int EmpNo=201;
+	public void display()
+	{
+		System.out.println("Employee No: "+EmpNo);
+	}
+
+}

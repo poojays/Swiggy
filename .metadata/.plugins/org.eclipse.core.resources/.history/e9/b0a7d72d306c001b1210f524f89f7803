@@ -1,0 +1,12 @@
+package Demo;
+
+public class SecondClass {
+	public void  show() {
+		System.out.println("Name is:");
+	}
+	protected void show1() {
+		System.out.println("age is:");
+		
+	}
+
+}
