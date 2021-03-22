@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1441" started-at="2021-03-22T07:09:10Z" finished-at="2021-03-22T07:09:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1441" started-at="2021-03-22T07:09:10Z" finished-at="2021-03-22T07:09:11Z">
+      <class name="restAPI.GetRequestwithLogger">
+        <test-method status="PASS" signature="setup()[pri:0, instance:restAPI.GetRequestwithLogger@101df177]" name="setup" is-config="true" duration-ms="1392" started-at="2021-03-22T07:09:10Z" finished-at="2021-03-22T07:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:restAPI.GetRequestwithLogger@101df177]" name="test1" duration-ms="10" started-at="2021-03-22T07:09:11Z" finished-at="2021-03-22T07:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- restAPI.GetRequestwithLogger -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
